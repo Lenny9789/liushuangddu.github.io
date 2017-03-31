@@ -10,7 +10,7 @@
     
     <title>
         
-            Hello World | 
+            Swift 设计模式-对象模板模式 | 
         
         WSDSG
     </title>
@@ -27,7 +27,7 @@
     <meta name="theme-color" content="#0097A7">
     <meta name="author" content="liu shuang">
     <meta name="description" content="null">
-    <meta name="keywords" content="null">
+    <meta name="keywords" content="null,swift 设计模式">
 
     <!--iOS -->
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -48,9 +48,9 @@
     <!-- The Open Graph protocol -->
     <meta property="og:url" content="http://liushuangddu.com">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="Hello World | WSDSG">
+    <meta property="og:title" content="Swift 设计模式-对象模板模式 | WSDSG">
     <meta property="og:description" content="null">
-    
+    <meta property="og:article:tag" content="swift 设计模式"> 
 
     <!--[if lte IE 9]>
         <link rel="stylesheet" href="/css/ie-blocker.css">
@@ -234,7 +234,7 @@
     </button>
 
     <ul class="post-toc-wrap mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect" for="post-toc-trigger-btn">
-        <ol class="post-toc"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#Quick-Start"><span class="post-toc-number">1.</span> <span class="post-toc-text">Quick Start</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Create-a-new-post"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">Create a new post</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Run-server"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">Run server</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Generate-static-files"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">Generate static files</span></a></li><li class="post-toc-item post-toc-level-3"><a class="post-toc-link" href="#Deploy-to-remote-sites"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">Deploy to remote sites</span></a></li></ol></li></ol>
+        <ol class="post-toc"><li class="post-toc-item post-toc-level-1"><a class="post-toc-link" href="#对象模板模式"><span class="post-toc-number">1.</span> <span class="post-toc-text">对象模板模式</span></a><ol class="post-toc-child"><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#对象模板模式是什么"><span class="post-toc-number">1.1.</span> <span class="post-toc-text">对象模板模式是什么</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#对象模板模式有什么优点"><span class="post-toc-number">1.2.</span> <span class="post-toc-text">对象模板模式有什么优点</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#什么时候使用对象模板模式"><span class="post-toc-number">1.3.</span> <span class="post-toc-text">什么时候使用对象模板模式</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#如何确定我们是否正确实现了对象模板模式"><span class="post-toc-number">1.4.</span> <span class="post-toc-text">如何确定我们是否正确实现了对象模板模式</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#对象模板模式有哪些常见的陷阱"><span class="post-toc-number">1.5.</span> <span class="post-toc-text">对象模板模式有哪些常见的陷阱</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#与对象模板模式相关的模式"><span class="post-toc-number">1.6.</span> <span class="post-toc-text">与对象模板模式相关的模式</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#代码示例"><span class="post-toc-number">1.7.</span> <span class="post-toc-text">代码示例</span></a></li><li class="post-toc-item post-toc-level-2"><a class="post-toc-link" href="#对象模板模式的总结"><span class="post-toc-number">1.8.</span> <span class="post-toc-text">对象模板模式的总结</span></a></li></ol></li></ol>
 
         <!--
         <li class="mdl-menu__item">
@@ -270,7 +270,7 @@
         
     
             <p class="article-headline-p">
-                Hello World
+                Swift 设计模式-对象模板模式
             </p>
         </div>
 
@@ -313,7 +313,7 @@
     </button>
     <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="article-functions-viewtags-button">
         <li class="mdl-menu__item">
-        
+        <a class="post_tag-link" href="/tags/swift-设计模式/">swift 设计模式</a>
     </ul>
     
 
@@ -340,7 +340,7 @@
 
     <!-- Share Weibo -->
     
-        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Hello World&url=http://liushuangddu.com//2017/03/31/hello-world/index.html&pic=&searchPic=false&style=simple" target="_blank">
+        <a class="post_share-link" href="http://service.weibo.com/share/share.php?appkey=&title=Swift 设计模式-对象模板模式&url=http://liushuangddu.com//2017/03/31/Swift-设计模式-对象模板模式/index.html&pic=&searchPic=false&style=simple" target="_blank">
             <li class="mdl-menu__item">
                 分享到微博
             </li>
@@ -349,7 +349,7 @@
 
     <!-- Share Twitter -->
     
-        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Hello World&url=http://liushuangddu.com//2017/03/31/hello-world/index.html&via=liu shuang" target="_blank">
+        <a class="post_share-link" href="https://twitter.com/intent/tweet?text=Swift 设计模式-对象模板模式&url=http://liushuangddu.com//2017/03/31/Swift-设计模式-对象模板模式/index.html&via=liu shuang" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Twitter
             </li>
@@ -358,7 +358,7 @@
 
     <!-- Share Facebook -->
     
-        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://liushuangddu.com//2017/03/31/hello-world/index.html" target="_blank">
+        <a class="post_share-link" href="https://www.facebook.com/sharer/sharer.php?u=http://liushuangddu.com//2017/03/31/Swift-设计模式-对象模板模式/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Facebook
             </li>
@@ -367,7 +367,7 @@
 
     <!-- Share Google+ -->
     
-        <a class="post_share-link" href="https://plus.google.com/share?url=http://liushuangddu.com//2017/03/31/hello-world/index.html" target="_blank">
+        <a class="post_share-link" href="https://plus.google.com/share?url=http://liushuangddu.com//2017/03/31/Swift-设计模式-对象模板模式/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 Google+
             </li>
@@ -379,7 +379,7 @@
 
     <!-- Share QQ -->
     
-        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=WSDSG&title=Hello World&summary=null&pics=http://liushuangddu.comimg/favicon.png&url=http://liushuangddu.com/2017/03/31/hello-world/index.html" target="_blank">
+        <a class="post_share-link" href="http://connect.qq.com/widget/shareqq/index.html?site=WSDSG&title=Swift 设计模式-对象模板模式&summary=null&pics=http://liushuangddu.comimg/favicon.png&url=http://liushuangddu.com/2017/03/31/Swift-设计模式-对象模板模式/index.html" target="_blank">
             <li class="mdl-menu__item">
                 分享到 QQ
             </li>
@@ -397,15 +397,17 @@
                 <!-- Post Content -->
                 <div id="post-content" class="mdl-color-text--grey-700 mdl-card__supporting-text fade out">
     
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <h1 id="对象模板模式"><a href="#对象模板模式" class="headerlink" title="对象模板模式"></a>对象模板模式</h1><p> 对象模板模式由于太过简单,所以一般很少有人把他们归类于设计模式;说起来也很简单,直接使用类或者结构体来创建对象,你就使用了对象模板模式.</p>
+<h2 id="对象模板模式是什么"><a href="#对象模板模式是什么" class="headerlink" title="对象模板模式是什么"></a>对象模板模式是什么</h2><p>对象模板模式使用类或者结构体作为数据类型及其逻辑的规范,创建对象时使用模板,并在初始化时完成数据赋值.赋值时,要么使用模板中的默认值要么使用类或者结构体的初始化器</p>
+<h2 id="对象模板模式有什么优点"><a href="#对象模板模式有什么优点" class="headerlink" title="对象模板模式有什么优点"></a>对象模板模式有什么优点</h2><p>对象模板模式将数据与操作数据的逻辑组织在一起,即封装.封装使得对象可以在为其用户提供 API 的同时,隐藏接口的内部实现,这样的话有利于防止组件之间形成紧耦合.</p>
+<h2 id="什么时候使用对象模板模式"><a href="#什么时候使用对象模板模式" class="headerlink" title="什么时候使用对象模板模式"></a>什么时候使用对象模板模式</h2><p>除了非常简单的项目,我们一般都要使用这个模式.在 Cocoa Touch 框架下,🍎已经帮我们做好了一切,在使用系统自带的类时,已经默认使用了这个模式,但是在我们进行自定义类或者结构体的时候,我们也应该按照这个模式去设计我们自己的类.</p>
+<h2 id="如何确定我们是否正确实现了对象模板模式"><a href="#如何确定我们是否正确实现了对象模板模式" class="headerlink" title="如何确定我们是否正确实现了对象模板模式"></a>如何确定我们是否正确实现了对象模板模式</h2><p>在修改类或者结构体的内部实现时,使用了此模式的组件无须作出相应的改变,就说明我们正确使用了对象模板模式</p>
+<h2 id="对象模板模式有哪些常见的陷阱"><a href="#对象模板模式有哪些常见的陷阱" class="headerlink" title="对象模板模式有哪些常见的陷阱"></a>对象模板模式有哪些常见的陷阱</h2><p>对象模板模式唯一的陷阱就是在应该使用类作为模板的时候却使用了结构体,虽然类和结构体有很多相似之处,但是当你把它们创建的对象赋值给一个新变量时,它们的行为并不一致</p>
+<h2 id="与对象模板模式相关的模式"><a href="#与对象模板模式相关的模式" class="headerlink" title="与对象模板模式相关的模式"></a>与对象模板模式相关的模式</h2><pre><code>原型模式( prototype pattern )
+</code></pre><h2 id="代码示例"><a href="#代码示例" class="headerlink" title="代码示例"></a>代码示例</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div></pre></td><td class="code"><pre><div class="line">var products = [</div><div class="line">	(&quot;kksm&quot;,&quot;swift sjnajskascjsncja&quot;,342.2,9),</div><div class="line">	(&quot;wef4eww&quot;,&quot;nghjjjtynhghng&quot;,48.90,32),</div><div class="line">	(&quot;asqwsacascascavd&quot;,&quot;2eq2eqweqwdwa&quot;,19.3,12)</div><div class="line">]</div><div class="line"></div><div class="line">func calculateTax(product:(String, String, Double, Int)) -&gt; Double &#123;</div><div class="line">	return product.2 * 0.2</div><div class="line">&#125;</div><div class="line"></div><div class="line">func calculateStockValue(tuples:[(String, String, Double, Int)]) -&gt; Double &#123;</div><div class="line">	return tuples.reduce(0, &#123;</div><div class="line">		(total, product) -&gt; Double in</div><div class="line">			return total + (product.2 * Double(product.3))</div><div class="line">)</div><div class="line">&#125;</div><div class="line"></div><div class="line">print(&quot;\(calculateTax(products[0]))&quot;)</div><div class="line">print(&quot;\(calculateStockValue(products))&quot;)</div></pre></td></tr></table></figure>
+<p>代码中定义了一个用于表示产品的元组数组和两个操作元组的函数.无论实在参数定义还是在函数实现中,上面连个函数都与元组紧密的耦合在了一起,在定义操作元组的函数的时候, 元组的 index 和顺序还有数据类型都必须匹配.在函数实现中必须明确的指明取值和赋值的元素的 index. 对元组结构的依赖意味着函数与元组紧密的耦合在了一起,紧耦合最明显的影响是,当元组发生改变时,所有依赖他的部分都将要做出改变.在示例中只有两个函数,但是当自定义的类或者结构体中有多个方法都与某个元组或者其他数据紧耦合的话将不利于代码的维护和修改.<br>举例说明,当我们删掉元组中的一个数据,让元组的数据变为3个,那么下面的两个操作元组的函数也要随之改变.</p>
+<h2 id="对象模板模式的总结"><a href="#对象模板模式的总结" class="headerlink" title="对象模板模式的总结"></a>对象模板模式的总结</h2><p>对象模板模式使用类或者结构体来定义用于创建对象的模板,当应用程序的某个组件需要某个对象时,它可以通过指明对象模板(也就是类或者结构体)的名称,以及运行时需要给该对象配置的数据值,调用 swift 运行时来创建对象.对象模板模式的优点非常多,不管模板是类还是结构体,对象模板模式带来的好处都对得起用于实现模板所花的精力.<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"> class Product &#123;</div><div class="line"></div><div class="line">	var name: String</div><div class="line">	var description: String</div><div class="line">	var price: Double</div><div class="line">	var stock: Int</div><div class="line"></div><div class="line">	init(name: String, description: String, price: Double, stock: Int) &#123;</div><div class="line">		self.name = name</div><div class="line">		self.description = descroption</div><div class="line">		self.price = price</div><div class="line">		self.stock = stock</div><div class="line">	&#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
+<p> 这就是对象模板模式,真的是太简单了,不看书都不知道这是一个设计模式.你可以继续向 Product 类中添加方法.我相信到这里大家应该都了解了什么是对象模板模式.</p>
 
     
 
@@ -429,19 +431,19 @@
             <nav class="material-nav mdl-color-text--grey-50 mdl-cell mdl-cell--12-col">
     <!-- Prev Nav -->
     
-        <a href="/2017/03/31/Swift-设计模式-对象模板模式/" id="post_nav-newer" class="prev-content">
-            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
-                <i class="material-icons">arrow_back</i>
-            </button>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            新篇
-        </a>
-    
 
     <!-- Section Spacer -->
     <div class="section-spacer"></div>
 
     <!-- Next Nav -->
+    
+        <a href="/2017/03/31/hello-world/" id="post_nav-older" class="next-content">
+            旧篇
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900" role="presentation">
+                <i class="material-icons">arrow_forward</i>
+            </button>
+        </a>
     
 </nav>
 
